@@ -1,0 +1,81 @@
+/* ProductPage.css */
+
+/* Ana ürün detay konteyneri */
+.detail {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding:20px ;
+    margin: 9%;
+
+}
+
+/* Ürün kutusu */
+.detail>div {
+
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+    transition: 0.9s;
+    position:static;
+    color: black;
+    background-color: white;
+  
+    cursor: pointer; 
+
+}
+
+/* Ürün kutusu hover efekti */
+.detail>div:hover {
+    transition: 0.9s;
+    width: 1250px;
+    height: 610px;
+    transform:scaleZ(1.5);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: rgb(50, 90, 81);
+    color: white;
+
+}
+
+/* Ürün resmi */
+.images {
+    width: 60%;
+    border-radius: 50%;
+    height: 50%;
+}
+
+.images:hover{
+    border-radius: 0%;
+
+}
+.price{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: end;
+}
+
+h3{
+    margin-bottom: -5%;
+    font-size:2vw !important;
+}
+
+
+
+ul{
+    padding: 30px;
+}
+
+li{
+    list-style:square;
+    font-size: larger;
+}
+
+
+
+
+
